@@ -49,7 +49,7 @@ router.get('/element', (req, res, next) => {
     console.log(req.query)
     console.log(query, querytype)
 
-    /* straight to hell */
+    
     if(querytype === null && query === null){
         res.json({success: false, msg: 'Wrong EndPoint'})
     }
@@ -81,12 +81,3 @@ router.get('/test', (req, res, next) => {
 })
 
 module.exports = router;
-
-
-
-// atomic.radius subfields
-
-// general - physical - atomic - misc - history - isotopes => fields
-// name - group - sign - period - block - atomno => query
-
-// TODO: limit return info

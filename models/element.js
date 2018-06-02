@@ -92,7 +92,3 @@ module.exports.search = (querytype='name', query, field) => {
         }
     });
 }
-
-{
-
-}

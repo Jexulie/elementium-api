@@ -27,5 +27,3 @@ app.get('/*', (req, res) => {
 })
 
 module.exports = app;
-
-// "https://wiki-offline.jakearchibald.com/wiki/Lithium"
