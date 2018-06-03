@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+/* database schema */
 var elementSchema = new Schema({
     name: String,
     image: String,
@@ -15,14 +16,26 @@ var elementSchema = new Schema({
     isotopes: []
 });
 
+/* database model */
 var Element = mongoose.model('Element', elementSchema);
 
 module.exports = Element;
 
-var formatIt = name => (name.slice(0,1).toUpperCase()) + (name.slice(1,));
+/**
+ * Fix for lowercase entries
+ * @param {string} name 
+ * @returns {string}
+ */
+var formatIt = string => (string.slice(0,1).toUpperCase()) + (string.slice(1,));
 
+/**
+ * Element search logic
+ * @param {string} querytype search type
+ * @param {string} query searched string
+ * @param {string} field searched individual field
+ */
 module.exports.search = (querytype='name', query, field) => {
-    console.log(field)
+    console.log(querytype, query, field)
     if(querytype === 'name') query = formatIt(query)
     if(querytype === 'sign') query = formatIt(query)
     return new Promise((resolve, reject) => {
@@ -39,11 +52,11 @@ module.exports.search = (querytype='name', query, field) => {
                 }
             case 'group':
                 if(field !== null){
-                    Element.find({ group : query}, `${field}`)
+                    Element.find({ 'general.group' : parseInt(query)}, `${field}`)
                         .then(result => resolve(result))
                         .catch(error => reject(error))
                 }else{
-                    Element.find({ group : query})
+                    Element.find({ 'general.group' : parseInt(query)})
                         .then(result => resolve(result))
                         .catch(error => reject(error))
                 }
@@ -87,8 +100,6 @@ module.exports.search = (querytype='name', query, field) => {
                         .then(result => resolve(result))
                         .catch(error => reject(error))
                 }
-
-
         }
     });
 }

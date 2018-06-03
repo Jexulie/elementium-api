@@ -14,9 +14,9 @@
     "science"
   ],
   "bugs": {
-    "url": "https://github.com/jexulie/elementiumapi/issues"
+    "url": "https://github.com/Jexulie/elementium-api/issues"
   },
-  "homepage": "https://github.com/jexulie/elementiumapi",
+  "homepage": "https://github.com/Jexulie/elementium-api",
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest"

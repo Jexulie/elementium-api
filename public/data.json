@@ -1,0 +1,3100 @@
+{
+    "test":[
+        {
+            "name": "Hydrogen",
+            "image": "./img/hydrogen/img",
+            "sign": "H",
+            "atomicweigth": 1.008,
+            "general":{
+                "appearance": "colorless gas",
+                "atomicnumber": 1,
+                "group": 1,
+                "period": 1,
+                "elementcategory": "reactive non-metal",
+                "block": "s-block",
+                "electronpershell": [1]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 13.99,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -434.49,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -259.16,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 20.271,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -252.879,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -423.182,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 0.08988,
+                    "unit": "g/L"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 0.07,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatbp": {
+                    "value": 0.07099,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 13.8033,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 7.041,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 32.938,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 7.041,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.117,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 0.904,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 28.836,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [1, -1],
+                    "info": "an amphoteric oxide"
+                },
+                "electronegativity": {
+                    "value": 2.20,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1312.0,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["31+5", "31-5"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 120,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./img/hydrogen/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "hexagonal",
+                    "img": "./img/hydrojen/structure"
+                },
+                "speedofsound": {
+                    "value": 1310,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 0.1805,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -3.98e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "casnumber": "12385-13-6"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Henry Cavendish",
+                    "date": "1766"
+                },
+                "namedby": {
+                    "name": "Antoine Lavoisier",
+                    "date": "1783"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "1H",
+                    "abundance": "99.98%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "2H",
+                    "abundance": "0.02%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "3H",
+                    "abundance": "trace",
+                    "halflife": "12.32y",
+                    "decaymode": "β−",
+                    "product": "3He"
+                }
+            ]
+        },
+        {
+            "name": "Helium",
+            "image": "./images//img",
+            "sign": "He",
+            "atomicweigth": 4.002,
+            "general":{
+                "appearance": "colorless gas",
+                "atomicnumber": 2,
+                "group": 18,
+                "period": 1,
+                "elementcategory": "noble gas",
+                "block": "s-block",
+                "electronpershell": [2]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 0.95,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -457.96,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -272.20,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 4.222,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -452.070,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -268.928,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 0.1786,
+                    "unit": "g/L"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 0.145,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatbp": {
+                    "value": 0.125,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 2.177,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 5.043,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 5.1953,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 0.22746,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.0138,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 0.0829,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 20.78,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 2372.3,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 5250.5,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["28"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 140,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/helium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "hexagonal close-packed (hcp)",
+                    "img": "./images/helium/structure"
+                },
+                "speedofsound": {
+                    "value": 972,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 0.1513,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -1.88e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "casnumber": "7440-59-7"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Pierre Janssen, Norman Lockyer",
+                    "date": "1868"
+                },
+                "namedby": {
+                    "name": "after Helios, Greek Titan of the Sun",
+                    "date": null
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "3He",
+                    "abundance": "0.0002%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "4He",
+                    "abundance": "99.9998%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Lithium",
+            "image": "./images/lithium/img",
+            "sign": "Li",
+            "atomicweigth": 6.94,
+            "general":{
+                "appearance": "silvery-white",
+                "atomicnumber": 3,
+                "group": 1,
+                "period": 2,
+                "elementcategory": "alkali metal",
+                "block": "s-block",
+                "electronpershell": [2, 1] 
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 453.65,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 356.90,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 180.50,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 1603,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 2426,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 1330,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 0.534,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 0.512,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatbp": {
+                    "value": null,
+                    "unit": "g/cm3"
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 3220,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 67,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 3,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 136,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 24.860,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": 1,
+                    "info": "a strongly basic oxide"
+                },
+                "electronegativity": {
+                    "value": 0.98,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 520.2,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "first",
+                        "value": 7298.1,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "first",
+                        "value": 11815,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 152,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["128+7", "128-7"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 182,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/lithium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "body-centered cubic",
+                    "img": "./images/lithium/structure"
+                },
+                "speedofsound": {
+                    "value": 6000,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 84.8,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 92.8,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "paramagnetic",
+                "magneticsuseptibility": {
+                    "value": 14.2e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 4.9,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 4.2,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 11,
+                    "unit": "GPa"
+                },
+                "mohshardness": 0.6,
+                "brinellhardness":{
+                    "value": 5,
+                    "unit": "MPa"
+                },
+                "casnumber": "7439-93-2"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Johan Agustus Arfwedson",
+                    "date": "1817"
+                },
+                "namedby": {
+                    "name": "William Thomas Brande",
+                    "date": "1821"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "6Li",
+                    "abundance": "5%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "7Li",
+                    "abundance": "95%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Beryllium",
+            "image": "./images/beryllium/img",
+            "sign": "Be",
+            "atomicweigth": 9.012,
+            "general":{
+                "appearance": "white-gray metallic",
+                "atomicnumber": 4,
+                "group": 2,
+                "period": 2,
+                "elementcategory": "alkaline earth metal",
+                "block": "s-block",
+                "electronpershell": [2, 2]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 1560,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 2349,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 1287,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 2742,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 4476,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 2469,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 1.85,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 1.690,
+                    "unit": "g/cm3"
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 5205,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 12.2,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 292,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 16.443,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 16.433,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [2, 1],
+                    "info": "an amphoteric oxide"
+                },
+                "electronegativity": {
+                    "value": 1.57,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 899.5,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 1757.1,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 14848.7,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 112,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["96+3", "96-3"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 153,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/beryllium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "",
+                    "img": "./images/beryllium/structure"
+                },
+                "speedofsound": {
+                    "value": 12890,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 200,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 36,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -9e6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 287,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 287,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 132,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 130,
+                    "unit": "GPa"
+                },
+                "poissonratio": 0.032,
+                "mohshardness": 5.5,
+                "vickershardness":{
+                    "value": 1670,
+                    "unit": "MPa"
+                },
+                "brinellhardness":{
+                    "value": 590,
+                    "unit": "MPa"
+                },
+                "casnumber": "7440-41-7"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Louis Nicolas Vauquelin",
+                    "date": "1798"
+                },
+                "namedby": {
+                    "name": "Friedrich Wöhler, Antoine Bussy",
+                    "date": "1828"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "7Be",
+                    "abundance": "trace",
+                    "halflife": "53.12d",
+                    "decaymode": "ε, γ",
+                    "product": "7Li"
+                },
+                {
+                    "isotope": "9Be",
+                    "abundance": "100%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "10Be",
+                    "abundance": "trace",
+                    "halflife": "1.39e6y",
+                    "decaymode": "β−",
+                    "product": "10B"
+                }
+            ]
+        },
+        {
+            "name": "Boron",
+            "image": "./images/boron/img",
+            "sign": "B",
+            "atomicweigth": 10.81,
+            "general":{
+                "appearance": "black-brown",
+                "allotropes": "α-, β-rhombohedral, β-tetragonal",
+                "atomicnumber": 5,
+                "group": 13,
+                "period": 2,
+                "elementcategory": "metalloid",
+                "block": "p-block",
+                "electronpershell": [2, 3]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 2349,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 3769,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 2076,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 4200,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 7101,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 3927,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "densitywhenliquidatmp": {
+                    "value": 2.08,
+                    "unit": "g/cm3"
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 50.2,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 508,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 11.087,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [3, 2, 1, -1, -5],
+                    "info": "a mildly acidic oxide"
+                },
+                "electronegativity": {
+                    "value": 2.04,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 800.6,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 2427.1,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 3659.7,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 90,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["84+3", "84-3"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 192,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/boron/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "rhombohedral",
+                    "img": "./images/boron/structure"
+                },
+                "speedofsound": {
+                    "value": 16200,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 27.4,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 1e6,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -6.7e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 287,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 9.5,
+                    "unit": "GPa"
+                },
+                "casnumber": "744-42-8"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Joseph Louis Gay-Lussac and Louis Jacques Thénard",
+                    "date": "1808"
+                },
+                "namedby": {
+                    "name": "Humphry Davy",
+                    "date": "1808"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "10B",
+                    "abundance": "20%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "11B",
+                    "abundance": "80%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Carbon",
+            "image": "./images/carbon/img",
+            "sign": "C",
+            "atomicweigth": 12.011,
+            "general":{
+                "appearance": "graphite: black, diamond: clear",
+                "allotropes": "graphite, diamond",
+                "atomicnumber": 6,
+                "group": 14,
+                "period": 2,
+                "elementcategory": "reactive non-metal (sometimes condisdered a metalloid)",
+                "block": "p-block",
+                "electronpershell": [2, 4]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "sublimationpoint":{
+                    "temperature":[
+                        {
+                            "value": 3915,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 6588,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 3642,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": [
+                    {
+                        "allotrope": "amorphous",
+                        "value": 1.8,
+                        "unit": "g/cm3"
+                    },
+                    {
+                        "allotrope": "graphite",
+                        "value": 2.267,
+                        "unit": "g/cm3"
+                    },
+                    {
+                        "allotrope": "diamond",
+                        "value": 3.515,
+                        "unit": "g/cm3"
+                    }
+                ],
+                "triplepoint": {
+                    "temperature": {
+                        "value": 4600,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 10800,
+                        "unit": "kPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 117,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": [
+                    {
+                        "graphite":{
+                            "energy": {
+                                "value": 8.517,
+                                "unit": "J/(mol.K)"
+                            }
+                        }
+                    },
+                    {
+                        "diamond":{
+                            "energy": {
+                                "value": 6.155,
+                                "unit": "J/(mol.K)"
+                            }
+                        }
+                    }
+                ]
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [4, 3 ,2 ,1 , 0, -1 , -2, -3, -4],
+                    "info": "a mildly acidic oxide"
+                },
+                "electronegativity": {
+                    "value": 2.55,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1086.5,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 2352.6,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 4620.5,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": [
+                    {
+                        "name": "sp3",
+                        "value": 77,
+                        "unit": "pm"
+                    },
+                    {
+                        "name": "sp2",
+                        "value": 73,
+                        "unit": "pm"
+                    },
+                    {
+                        "name": "sp",
+                        "value": 69,
+                        "unit": "pm"
+                    }
+                ],
+                "vanderwaalsradius": {
+                    "value": 170,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/carbon/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": [
+                    {
+                        "name": "graphite",
+                        "value": "simple hexagonal",
+                        "img": "./images/carbon/structure/graphite"
+                    },
+                    {
+                        "name": "diamond",
+                        "value": " ​face-centered diamond-cubic",
+                        "img": "./images/carbon/structure/diamond"
+                    }
+                ],
+                "speedofsound": {
+                    "value": 18350,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": [
+                    {
+                        "name": "graphite",
+                        "value": 119,
+                        "unit": "W/(m.K)"
+                    },
+                    {
+                        "name": "diamond",
+                        "value": 900,
+                        "unit": "W/(m.K)"
+                    }
+                ],
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -5.9e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 287,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 1050,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 478,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 442,
+                    "unit": "GPa"
+                },
+                "poissonratio": 0.1,
+                "mohshardness":[
+                    {"name": "graphite", "value": 1},
+                    {"name": "diamond", "value": 10}
+                ],                
+                "casnumber": "7440-40-0"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Egyptians and Sumerians",
+                    "date": "3750 BCE"
+                },
+                "namedby": {
+                    "name": "Antoine Lavoisier",
+                    "date": "1789"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "11C",
+                    "abundance": "synthetic radioisotope",
+                    "halflife": "20min",
+                    "decaymode": "β+",
+                    "product": "11B"
+                },
+                {
+                    "isotope": "12C",
+                    "abundance": "98.9%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "13C",
+                    "abundance": "1.1%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "14C",
+                    "abundance": "trace",
+                    "halflife": "5730y",
+                    "decaymode": "β−",
+                    "product": "14N"
+                }
+            ]
+        },
+        {
+            "name": "Nitrogen",
+            "image": "./images/nitrogen/img",
+            "sign": "N",
+            "atomicweigth": 14.007,
+            "appearance": "colorless gas, liquid or solid",
+            "general":{
+                "atomicnumber": 7,
+                "group": 15,
+                "period": 2,
+                "elementcategory": "reactive non-metal",
+                "block": "p-block",
+                "electronpershell": [2, 5]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 63.15,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -346,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -210,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 77.355,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -320.431,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -195.795,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 1.2504,
+                    "unit": "g/L"
+                },
+                "densitywhenliquidatbp": {
+                    "value": 0.808,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 63.151,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 12.52,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 126.192,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 3.3958,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.72,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 5.56,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 29.124,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [5, 4 ,3 ,2 ,1 ,-1,-2,-3],
+                    "info": "astrongly acidic oxide"
+                },
+                "electronegativity": {
+                    "value": 3.04,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1402.3,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 2856,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 4578.1,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["71+1", "71-1"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 155,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/nitrogen/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "hexegonal",
+                    "img": "./images/nitrogen/structure"
+                },
+                "speedofsound": {
+                    "value": 353,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 28.83e-3,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "diamagnetic",
+                "casnumber": "17778-88-0"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Daniel Rutherford",
+                    "date": "1772"
+                },
+                "namedby": {
+                    "name": "Jean-Antoine Chaptal",
+                    "date": "1790"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "13N",
+                    "abundance": "synthetic radioisotope",
+                    "halflife": "9.965min",
+                    "decaymode": "ε",
+                    "product": "13C"
+                },
+                {
+                    "isotope": "14N",
+                    "abundance": "99.6%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "15N",
+                    "abundance": "0.4%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Oxygen",
+            "image": "./images/oxygen/img",
+            "sign": "O",
+            "atomicweigth": 15.999,
+            "appearance": "gas: colorless, liquid: pale blue",
+            "allotropes": "O2, O3 (Ozone)",
+            "general":{
+                "atomicnumber": 8,
+                "group": 16,
+                "period": 2,
+                "elementcategory": "reactive non-metal",
+                "block": "p-block",
+                "electronpershell": [2, 6]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 54.36,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -361.82,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -218.79,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 90.188,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -297.332,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -182.962,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 1.429,
+                    "unit": "g/L"
+                },
+                "densitywhenliquidatbp": {
+                    "value": 1.141,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 54.361,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 0.1463,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 154.581,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 5.043,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.444,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 6.82,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 29.378,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [2,1,-1,-2],
+                    "info": ""
+                },
+                "electronegativity": {
+                    "value": 3.44,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1313.9,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 3388.3,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 5300.5,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["66+2", "66-2"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 152,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/oxygen/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "cubic",
+                    "img": "./images/oxygen/structure"
+                },
+                "speedofsound": {
+                    "value": 330,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 26.58e-3,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "paramagnetic",
+                "magneticsuseptibility": {
+                    "value": 3349e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 293,
+                        "unit": "K"
+                    }
+                },
+                "casnumber": "7782-44-7"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Carl Wilhelm Scheele",
+                    "date": "1771"
+                },
+                "namedby": {
+                    "name": "Antoine Lavoisier",
+                    "date": "1777"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "16O",
+                    "abundance": "99.76%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "17O",
+                    "abundance": "0.04%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "18O",
+                    "abundance": "0.20%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Fluorine",
+            "image": "./images/fluorine/img",
+            "sign": "F",
+            "atomicweigth": 18.998,
+            "appearance": "gas: very pale yellow, liquid: bright yellow, solid: alpha is opaque, beta is transparent",
+            "allotropes": "alpha, beta",
+            "general":{
+                "atomicnumber": 9,
+                "group": 17,
+                "period": 2,
+                "elementcategory": "reactive non-metal",
+                "block": "p-block",
+                "electronpershell": [2, 7]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 53.48,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -363.41,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -219.67,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 85.03,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -306.60,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -188.11,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 1.696,
+                    "unit": "g/L"
+                },                
+                "densitywhenliquidatbp": {
+                    "value": 1.505,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 53.48,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 90,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 144.41,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 5.1724,
+                        "unit": "MPa"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 6.51,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": [
+                    {
+                        "Cp": {
+                            "energy": {
+                                "value": 31,
+                                "unit": "J/(mol.K)"
+                            }
+                        }
+                    },
+                    {
+                        "Cv": {
+                            "energy": {
+                                "value": 23,
+                                "unit": "J/(mol.K)"
+                            }
+                        }
+                    }
+                ]
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [-1],
+                    "info": "oxidizes oxygen"
+                },
+                "electronegativity": {
+                    "value": 3.98,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1681,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 3374,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 6174,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["64"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 135,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/fluorine/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "cubic",
+                    "img": "./images/fluorine/structure"
+                },
+                "thermalconductivity": {
+                    "value": 0.02591,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "diamagnetic",
+                "casnumber": "7782-41-4"
+            },
+            "history": {
+                "discovery": {
+                    "name": "André-Marie Ampère",
+                    "date": "1810"
+                },
+                "namedby": {
+                    "name": "Humphry Davy",
+                    "date": null
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "18F",
+                    "abundance": "trace",
+                    "halflife": "109.8min",
+                    "decaymode": "β+ (97%), ε (3%)",
+                    "product": "18O"
+                },
+                {
+                    "isotope": "19F",
+                    "abundance": "100%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Neon",
+            "image": "./images/neon/img",
+            "sign": "Ne",
+            "atomicweigth": 20.1797,
+            "appearance": "colorless gas",
+            "general":{
+                "atomicnumber": 10,
+                "group": 18,
+                "period": 2,
+                "elementcategory": "noble gas",
+                "block": "p-block",
+                "electronpershell": [2, 8]
+            },
+            "physical": {
+                "phaseatstp": "gas",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 24.56,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -415.46,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -248.59,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 27.104,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": -410.883,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": -246.046,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 0.9002,
+                    "unit": "g/L"
+                },
+                "densitywhenliquidatbp": {
+                    "value": 1.207,
+                    "unit": "g/cm3"
+                },
+                "triplepoint": {
+                    "temperature": {
+                        "value": 24.556,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 43.37,
+                        "unit": "kPa"
+                    }
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 44.4918,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 2.7686,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.335,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 1.71,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 20.79,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [0],
+                    "info": null
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 2080.7,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 3952.3,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 6122,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["58"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 154,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/neon/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "face-centered cubif (ffc)",
+                    "img": "./images/neon/structure"
+                },
+                "speedofsound": {
+                    "value": 435,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 49.1e-3,
+                    "unit": "W/(m.K)"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -6.74e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "bulkmodulus":{
+                    "value": 654,
+                    "unit": "GPa"
+                },
+                "casnumber": "7440-01-9"
+            },
+            "history": {
+                "discovery": {
+                    "name": "William Ramsay & Morris Travers",
+                    "date": "1898"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "20Ne",
+                    "abundance": "90.48%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "21Ne",
+                    "abundance": "0.27%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "22Ne",
+                    "abundance": "9.25%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Sodium",
+            "image": "./images/sodium/img",
+            "sign": "Na",
+            "atomicweigth": 22.989,
+            "appearance": "silvery white metallic",
+            "general":{
+                "atomicnumber": 11,
+                "group": 1,
+                "period": 3,
+                "elementcategory": "alkali metal",
+                "block": "s-block",
+                "electronpershell": [2,8,1]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 370.944,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 208.029,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 97.794,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 1156.090,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 1621.292,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 882.940,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 0.968,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 0.927,
+                    "unit": "g/cm3"
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 2573,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 35,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 2.60,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 97.42,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 28.230,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [1,-1],
+                    "info": "a strongly basic oxide"
+                },
+                "electronegativity": {
+                    "value": 0.93,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 495.8,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 4562,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 6910.3,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 186,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["166+9", "166-9"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 227,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/sodium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "body-centered cubic (bcc)",
+                    "img": "./images/sodium/structure"
+                },
+                "speedofsound": {
+                    "value": 3200,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 142,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 47.7,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "paramagnetic",
+                "magneticsuseptibility": {
+                    "value": 16e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 10,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 3.3,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 6.3,
+                    "unit": "GPa"
+                },
+                "mohshardness": 0.5,
+                "brinellhardness":{
+                    "value": 0.69,
+                    "unit": "MPa"
+                },
+                "casnumber": "7440-23-5"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Humphry Davy",
+                    "date": "1807"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "22Na",
+                    "abundance": "trace",
+                    "halflife": "2.602y",
+                    "decaymode": "β+",
+                    "product": "22Ne"
+                },
+                {
+                    "isotope": "23Na",
+                    "abundance": "100%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "24Na",
+                    "abundance": "trace",
+                    "halflife": "14.96h",
+                    "decaymode": "β−",
+                    "product": "24Mg"
+                }
+            ]
+        },
+        {
+            "name": "Magnesium",
+            "image": "./images/magnesium/img",
+            "sign": "Mg",
+            "atomicweigth": 24.305,
+            "appearance": "shiny grey solid",
+            "general":{
+                "atomicnumber": 12,
+                "group": 2,
+                "period": 3,
+                "elementcategory": "alkaline earth metal",
+                "block": "s-block",
+                "electronpershell": [2,8,2]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 923,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 1202,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 650,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 1363,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 1994,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 1091,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 1.738,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 1.584,
+                    "unit": "g/cm3"
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 8.48,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 128,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 24.869,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [2,1],
+                    "info": "a strongly basic oxide"
+                },
+                "electronegativity": {
+                    "value": 1.31,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 737.7,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 1450.7,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 7732.7,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 160,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["141+7", "141-7"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 173,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/magnesium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "hexagonal close-packed (hcp)",
+                    "img": "./images/magnesium/structure"
+                },
+                "speedofsound": {
+                    "value": 4940,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 156,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 43.9,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "paramagnetic",
+                "magneticsuseptibility": {
+                    "value": 13.1e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 45,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 17,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 35.4,
+                    "unit": "GPa"
+                },
+                "poissonratio": 0.290,
+                "mohshardness": 2.5,
+                "brinellhardness":{
+                    "value": 44,
+                    "unit": "MPa"
+                },
+                "casnumber": "7439-95-4"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Joseph Black",
+                    "date": "1755"
+                },
+                "namedby": {
+                    "name": "Humphry Davy",
+                    "date": "1808"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "24Mg",
+                    "abundance": "79%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "25Mg",
+                    "abundance": "10%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "26Mg",
+                    "abundance": "11%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Aluminium",
+            "image": "./images/aluminium/img",
+            "sign": "Al",
+            "atomicweigth": 26.981,
+            "appearance": "silvery gray metallic",
+            "general":{
+                "atomicnumber": 13,
+                "group": 13,
+                "period": 3,
+                "elementcategory": "post-transition metal",
+                "block": "p-block",
+                "electronpershell": [2,8,3]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 933.47,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 1220.58,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 660.32,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 2743,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 4478,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 660.32,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 2.70,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 2.375,
+                    "unit": "g/cm3"
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 10.71,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 284,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 24.20,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [3,2,1,-1,-2],
+                    "info": "an amphoteric"
+                },
+                "electronegativity": {
+                    "value": 1.61,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 577.5,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 1816.7,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 2744.8,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 143,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["121+4", "121-4"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 184,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/aluminium/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "face-centered cubic (fcc)",
+                    "img": "./images/aluminium/structure"
+                },
+                "speedofsound": {
+                    "value": 5000,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 237,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 28.2,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "paramagnetic",
+                "magneticsuseptibility": {
+                    "value": 16.5e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 287,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 70,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 26,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 76,
+                    "unit": "GPa"
+                },
+                "poissonratio": 0.35,
+                "mohshardness": 2.75,
+                "vickershardness":{
+                    "value": 160,
+                    "unit": "MPa"
+                },
+                "brinellhardness":{
+                    "value": 160,
+                    "unit": "MPa"
+                },
+                "casnumber": "7429-90-5"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Hans Christian Ørsted ",
+                    "date": "1824"
+                },
+                "namedby": {
+                    "name": "Humphry Davy",
+                    "date": "1812"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "26Al",
+                    "abundance": "trace",
+                    "halflife": "7.17e5y",
+                    "decaymode": "β+, ε, γ",
+                    "product": "26Mg"
+                },
+                {
+                    "isotope": "27Al",
+                    "abundance": "100%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        },
+        {
+            "name": "Silicon",
+            "image": "./images/silicon/img",
+            "sign": "Si",
+            "atomicweigth": 28.085,
+            "appearance": "crystalline, reflective with bluish-tinged faces",
+            "general":{
+                "atomicnumber": 14,
+                "group": 14,
+                "period": 3,
+                "elementcategory": "metalloid",
+                "block": "p-block",
+                "electronpershell": [2,8,4]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 1687,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 2577,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 1414,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 3538,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 5909,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 3265,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": {
+                    "value": 2.3290,
+                    "unit": "g/cm3"
+                },
+                "densitywhenliquidatmp": {
+                    "value": 2.57,
+                    "unit": "g/cm3"
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 50.21,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 383,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 19.789,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [4,3,2,1,-1,-2,-3,-4],
+                    "info": "an amphoteric oxide"
+                },
+                "electronegativity": {
+                    "value": 1.90,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 786.5,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 1577.1,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 3231.6,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "atomicradius": {
+                    "value": 111,
+                    "unit": "pm"
+                },
+                "covalentradius": {
+                    "value": ["111"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 210,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/silicon/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "face-centered diamond cubic",
+                    "img": "./images/silicon/structure"
+                },
+                "speedofsound": {
+                    "value": 8433,
+                    "unit": "m/s"
+                },
+                "thermalconductivity": {
+                    "value": 149,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 2.3e3,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -3.9e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "youngsmodulus":{
+                    "value": 130,
+                    "unit": "GPa"
+                },
+                "shearmodulus":{
+                    "value": 51,
+                    "unit": "GPa"
+                },
+                "bulkmodulus":{
+                    "value": 97.6,
+                    "unit": "GPa"
+                },
+                "poissonratio": 0.0064,
+                "mohshardness": 6.5,
+                "casnumber": "7440-21-3"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Jöns Jacob Berzelius",
+                    "date": "1823"
+                },
+                "namedby": {
+                    "name": "Thomas Thomson",
+                    "date": "1817"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "28Si",
+                    "abundance": "92.2%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "29Si",
+                    "abundance": "4.7%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "30Si",
+                    "abundance": "3.1%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "31Si",
+                    "abundance": "trace",
+                    "halflife": "2.62h",
+                    "decaymode": "β−",
+                    "product": "31P"
+                },
+                {
+                    "isotope": "32Si",
+                    "abundance": "trace",
+                    "halflife": "153y",
+                    "decaymode": "β−",
+                    "product": "32P"
+                }
+            ]
+        },
+        {
+            "name": "Phosphorus",
+            "image": "./images/phosphorus/img",
+            "sign": "P",
+            "atomicweigth": 30.973,
+            "appearance": "colourless, waxy white, yellow, scarlet, red, violet, black",
+            "general":{
+                "atomicnumber": 15,
+                "group": 15,
+                "period": 3,
+                "elementcategory": "reactive non-metal",
+                "block": "p-block",
+                "electronpershell": [2, 8 , 5]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "density": [
+                    {
+                        "name":"while",
+                        "value": 1.823,
+                        "unit": "g/cm-3"
+                    },
+                    {
+                        "name":"red",
+                        "value": 2.2,
+                        "unit": "g/cm-3"
+                    },
+                    {
+                        "name":"violet",
+                        "value": 2.36,
+                        "unit": "g/cm-3"
+                    },
+                    {
+                        "name":"black",
+                        "value": 2.69,
+                        "unit": "g/cm3"
+                    }
+                ],
+                "heatoffusion": {
+                    "energy": {
+                        "value": 0.66,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 51.9,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 23.824,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [5,4,3,2,1,-1,-2,-3],
+                    "info": "a mildly acidic oxide"
+                },
+                "electronegativity": {
+                    "value": 2.19,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 1011.8,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 1907,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 2914.1,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["107+3", "107-3"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 180,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/phosphorus/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "body-centered cubic (bcc)",
+                    "img": "./images/phosphorus/structure"
+                },
+                "thermalconductivity": [
+                    {
+                        "name": "white",
+                        "value": 0.236,
+                        "unit": "W/(m.K)"
+                    },
+                    {
+                        "name": "black",
+                        "value": 12.1,
+                        "unit": "W/(m.K)"
+                    }
+                ],
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -20.8e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 293,
+                        "unit": "K"
+                    }
+                },
+                "bulkmodulus":[
+                    {
+                        "name": "white",
+                        "value": 5,
+                        "unit": "GPa"
+                    },
+                    {
+                        "name": "red",
+                        "value": 11,
+                        "unit": "GPa"
+                    }
+                ],
+                "casnumber": "12185-10-3"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Hennig Brand",
+                    "date": "1669"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "31P",
+                    "abundance": "100%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                },
+                {
+                    "isotope": "32P",
+                    "abundance": "trace",
+                    "halflife": "14.28d",
+                    "decaymode": "β−",
+                    "product": "32S"
+                },
+                {
+                    "isotope": "33P",
+                    "abundance": "trace",
+                    "halflife": "25.3d",
+                    "decaymode": "β−",
+                    "product": "33S"
+                }
+            ]
+        },
+        {
+            "name": "Sulfur",
+            "image": "./images/sulfur/img",
+            "sign": "S",
+            "atomicweigth": 32.06,
+            "appearance": "lemon yellow sintered microcrystals",
+            "general":{
+                "atomicnumber": 16,
+                "group": 16,
+                "period": 3,
+                "elementcategory": "reactive non-metal",
+                "block": "p-block",
+                "electronpershell": [2,8,6]
+            },
+            "physical": {
+                "phaseatstp": "solid",
+                "meltingpoint": {
+                    "temperature": [
+                        {
+                            "value": 388.36,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 239.38,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 115.21,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "boilingpoint": {
+                    "temperature": [
+                        {
+                            "value": 717.8,
+                            "Unit": "K"
+                        },
+                        {
+                            "value": 832.3,
+                            "Unit": "F"
+                        },
+                        {
+                            "value": 444.6,
+                            "Unit": "C"
+                        }
+                    ]
+                },
+                "density": [
+                    {
+                        "name": "alpha",
+                        "value": 2.07,
+                        "unit": "g/cm3"
+                    },
+                    {
+                        "name": "beta",
+                        "value": 1.96,
+                        "unit": "g/cm3"
+                    },
+                    {
+                        "name": "gamma",
+                        "value": 1.92,
+                        "unit": "g/cm3"
+                    }
+                ],
+                "densitywhenliquidatmp": {
+                    "value": 1.819,
+                    "unit": "g/cm3"
+                },
+                "criticalpoint": {
+                    "temperature": {
+                        "value": 1314,
+                        "unit": "K"
+                    },
+                    "pressure": {
+                        "value": 20.7,
+                        "unit": "MPa"
+                    }
+                },
+                "heatoffusion": {
+                    "energy": {
+                        "value": 1.727,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "heatofvaporization": {
+                    "energy": {
+                        "value": 45,
+                        "unit": "kJ/mol"
+                    }
+                },
+                "molarheatcapacity": {
+                    "energy": {
+                        "value": 22.75,
+                        "unit": "J/(mol.K)"
+                    }
+                }
+            },
+            "atomic": {
+                "oxidationstates": {
+                    "value": [6,5,4,3,2,1,-1,-2],
+                    "info": "a strongly acidic oxide"
+                },
+                "electronegativity": {
+                    "value": 2.58,
+                    "unit": "Pauling scale"
+                },
+                "ionizationenergy": [
+                    {
+                        "name": "first",
+                        "value": 999.6,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "second",
+                        "value": 2252,
+                        "unit": "kJ/mol"
+                    },
+                    {
+                        "name": "third",
+                        "value": 3357,
+                        "unit": "kJ/mol"
+                    }
+                ],
+                "covalentradius": {
+                    "value": ["105+3", "105-3"],
+                    "unit": "pm"
+                },
+                "vanderwaalsradius": {
+                    "value": 180,
+                    "unit": "pm"
+                },
+                "spectrallines": {
+                    "img": "./images/sulfur/spectialline"
+                }
+            },
+            "misc": {
+                "crystalstructure": {
+                    "value": "orthorhombic",
+                    "img": "./images/sulfur/structure"
+                },
+                "thermalconductivity": {
+                    "value": 0.205,
+                    "unit": "W/(m.K)"
+                },
+                "electricalresistivity":{
+                    "value": 2e15,
+                    "unit": "nOhm.m"
+                },
+                "magneticordering": "diamagnetic",
+                "magneticsuseptibility": {
+                    "value": -15.5e-6,
+                    "unit": "cm3/mol",
+                    "temperature": {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                },
+                "bulkmodulus":{
+                    "value": 7.7,
+                    "unit": "GPa"
+                },
+                "mohshardness": 2.0,
+                "casnumber": "7704-34-9"
+            },
+            "history": {
+                "discovery": {
+                    "name": "Chinese",
+                    "date": "2000 BCE"
+                }
+            },
+            "isotopes": [
+                {
+                    "isotope": "32S",
+                    "abundance": "94.99%",
+                    "halflife": "stable",
+                    "decaymode": null,
+                    "product": null
+                },
+                {
+                    "isotope": "33S",
+                    "abundance": "0.75%",
+                    "halflife": "stable",
+                    "decaymode": null,
+                    "product": null
+                },
+                {
+                    "isotope": "34S",
+                    "abundance": "4.25%",
+                    "halflife": "stable",
+                    "decaymode": null,
+                    "product": null
+                },
+                {
+                    "isotope": "35S",
+                    "abundance": "trace",
+                    "halflife": "87.32d",
+                    "decaymode": "β−",
+                    "product": "35Cl"
+                },
+                {
+                    "isotope": "36S",
+                    "abundance": "4.25%",
+                    "halflife": null,
+                    "decaymode": "stable",
+                    "product": null
+                }
+            ]
+        }
+    ]
+}

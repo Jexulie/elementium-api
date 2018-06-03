@@ -3,22 +3,20 @@ var router = express.Router();
 
 var fs = require('fs');
 
-
 var Element = require('../models/element');
 
-/* dump test data to db. */
-// router.get('/push', (req, res, next) => {
-//   var raw = fs.readFileSync('./test.json', 'utf-8')
-//   var parsed = JSON.parse(raw)
-//   var arr = []
-//   arr.push(parsed.test)
-//   console.log(typeof parsed.test)
-//   Element.insertMany(arr[0], (err, docs) => {
-//       if(err) res.json({err: err})
-//       res.json({docs: docs})
-//   })
-// })
+/* Insert element data to database. */
+router.get('/push', (req, res, next) => {
+  var raw = fs.readFileSync('./test.json', 'utf-8')
+  var parsed = JSON.parse(raw)
+  var arr = []
+  arr.push(parsed.test)
+  Element.insertMany(arr[0])
+    .then(docs => res.json({success: true, docs: docs}))
+    .catch(error => res.json({success: false, error: error}))
+});
 
+/* element search route */
 router.get('/element', (req, res, next) => {
 
     var querytype = null;
@@ -46,14 +44,15 @@ router.get('/element', (req, res, next) => {
                             querytype === 'block' ? block :
                                 querytype === 'atomno' ? atomno : null;
 
-    console.log(req.query)
-    console.log(query, querytype)
-
     
     if(querytype === null && query === null){
         res.json({success: false, msg: 'Wrong EndPoint'})
     }
 
+    // TODO: database search is slow
+    var waitTime = 2000;
+
+    /* wait for database */
     setTimeout(() => {
         Element.search(querytype, query, field)
         .then(data => {
@@ -68,9 +67,10 @@ router.get('/element', (req, res, next) => {
                 error: error
             })
         })
-    }, 200)
-})
+    }, waitTime);
+});
 
+/* test search route */
 router.get('/test', (req, res, next) => {
     var main = req.query.main|| "";
     var sub = req.query.sub || ""
@@ -78,6 +78,6 @@ router.get('/test', (req, res, next) => {
         if(err) res.json({err: err})
         res.json({info: info})
     })
-})
+});
 
 module.exports = router;
