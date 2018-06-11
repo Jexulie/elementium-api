@@ -1,5 +1,5 @@
 # Elementium
-
+An api gives information about elements.
 ## An Element searching API.
 
 ### API Routes
